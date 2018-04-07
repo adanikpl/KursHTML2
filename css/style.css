@@ -1,0 +1,56 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#nav {
+    width: 120px;
+    background-color: lightgray;
+    padding: 10px;
+    min-height: 620px;
+    
+}
+
+#nav ul {
+    margin-left: -30px;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#content {
+    width: 640px;
+    padding: 20px;
+}
+
+#ad {
+    width: 160px;
+    min-height: 620px;
+    padding: 10px;
+    background-color: lightgray;
+}
+#nav, #content, #ad {
+    float: left;
+}
+
+#footer {
+    clear: both;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* style dla tabeli */
+
+h1, h2 {
+    color: white;
+}
